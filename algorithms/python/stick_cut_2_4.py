@@ -10,7 +10,7 @@ while arr:
     min_len = arr[0]
     count = 0
     for ind in range(len(arr)):
-        arr[ind] - min_len
+        arr[ind] -= min_len
         if arr[ind] == 0:
             count += 1
     arr = arr[count:]
